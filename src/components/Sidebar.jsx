@@ -52,7 +52,7 @@ const Sidebar = () => {
       </div>
 
       {/* Menu Items */}
-      <nav className="space-y-2 flex-grow"> {/* Allow space for footer */}
+      <nav className="space-y-2 flex-grow cursor-pointer"> {/* Allow space for footer */}
         <div className="menu-item flex items-center p-1 rounded hover:text-yellow-400">
           <HomeIcon className="h-6 w-6 mr-3" />
           <span>Home <IoMdArrowDropdown className="inline ml-20" /></span>

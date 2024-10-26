@@ -71,7 +71,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="pt-1">
+          <div className="py-5">
             <NFTCardGrid
               initialCards={initialCards}
               additionalCards={additionalCards}
