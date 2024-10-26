@@ -45,7 +45,7 @@ const Sidebar = () => {
   };
 
   return (
-    <aside className="fixed top-0 left-0 h-full w-60 bg-[#17181A] dark:bg-gray-800 text-gray-300 p-4 flex flex-col">
+    <aside className=" top-0  h-full w-60 bg-[#17181A] dark:bg-gray-800 text-gray-300 p-4 flex flex-col">
       {/* Logo */}
       <div className="flex items-center justify-center mb-5">
         <img src="/arborswapclaims/arborlogo.svg" alt="ArborSwap Logo" className="w-50" />

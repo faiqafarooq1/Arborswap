@@ -6,8 +6,11 @@ import './App.css';
 function App() {
   return (
     <Router> 
-      <div className=''>
+    <div className='flex justify-center'>
+      <div className=' w-screen max-w-[1480px] '>
+
         <Home />
+      </div>
       </div>
     </Router>
   );
