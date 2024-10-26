@@ -1,4 +1,3 @@
-// cardData.js
 export const initialCards = [
     { title: "Robusnipe NFT Discoveries", image: "/pageone/nft1.svg" },
     { title: "Manga AI NFT Discoveries", image: "/pageone/nft2.svg" },
@@ -7,7 +6,6 @@ export const initialCards = [
 ];
 
 export const additionalCards = [
-    // Cards from images2 folder
     [
         { image: '/robusnipe/robo1.svg', title: 'Ryi Unity Campaign', description: 'Exclusive NFT for Arborswap - RYI Unity Campaign participants' },
         { image: '/robusnipe/robo2.svg', title: 'Ryi Unity Campaign', description: 'Exclusive NFT for Arborswap - RYI Unity Campaign participants' },
@@ -22,7 +20,6 @@ export const additionalCards = [
         { image: '/robusnipe/robo11.svg', title: 'Ryi Unity Campaign', description: 'Exclusive NFT for Arborswap - RYI Unity Campaign participants' },
         { image: '/robusnipe/robo12.svg', title: 'Ryi Unity Campaign', description: 'Exclusive NFT for Arborswap - RYI Unity Campaign participants' },
     ],
-    // Cards from images3 folder
     [
         { image: '/manga-ai/manga1.svg', title: 'Ryi Unity Campaign', description: 'Exclusive NFT for Arborswap - RYI Unity Campaign participants' },
         { image: '/manga-ai/manga2.svg', title: 'Ryi Unity Campaign', description: 'Exclusive NFT for Arborswap - RYI Unity Campaign participants' },
@@ -65,5 +62,4 @@ export const additionalCards = [
         { image: '/f4h/f4h12.svg', title: 'Ryi Unity Campaign', description: 'Exclusive NFT for Arborswap - RYI Unity Campaign participants' },
         { image: '/f4h/f4h13.svg', title: 'Ryi Unity Campaign', description: 'Exclusive NFT for Arborswap - RYI Unity Campaign participants' },
     ],
-    // Additional folders can be added similarly
 ];

@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.gradient-text {
+  background: linear-gradient(to right, #F6E05E, #68D391); /* Yellow-400 to Green-400 */
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem; /* Adjust size as needed */
+}

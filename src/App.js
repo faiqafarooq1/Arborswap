@@ -1,13 +1,15 @@
-// App.jsx
 import React from 'react';
-import Home from './components/Home'; // Import the Home component
+import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter
+import Home from './components/Home';
 import './App.css';
 
 function App() {
   return (
-    <div className=''>
-      <Home />
-    </div>
+    <Router> 
+      <div className=''>
+        <Home />
+      </div>
+    </Router>
   );
 }
 
